@@ -133,7 +133,7 @@ dependencies are eagerly evaluated, and only the synchronous parts of the graph 
 Consider the following example, where `a` is the top-level entry point:
 <table><tr><td>
 
-```js
+```js 
 // a
 import "b";
 import defer * as c from "c"
